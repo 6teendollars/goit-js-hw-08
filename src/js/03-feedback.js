@@ -5,7 +5,7 @@ const inputEmail = document.querySelector('input[name="email"]');
 const message = document.querySelector('textarea[name="message"]');
 const feedback = {};
 
-form.addEventListener('input', throttle(getInputValues, 500));
+form.addEventListener('input', throttle(getInputValues, 300));
 form.addEventListener('submit', handleSubmit);
 
 try {
